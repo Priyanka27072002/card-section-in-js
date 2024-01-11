@@ -1,0 +1,39 @@
+/*mobile*/
+@media(min-width:320px){
+    .card-row{
+        flex-wrap: nowrap;
+    }
+    .card-col{
+        width:100%;
+    }
+    img{
+        height: 300px;
+        width: 280px;
+    }
+}
+/*ipad*/
+@media(min-width:660px){
+    .card-row{
+        flex-wrap:nowrap;
+    }
+    .card-col{
+        width:100%;
+    }
+    img{
+        height: 300px;
+        width: 100%;
+    }
+}
+@media(min-width:1000px){
+    .card-row{
+        display: flex;
+    flex-wrap: wrap;
+    }
+    .card-col{
+        width:33.33%;
+    }
+    img{
+        height: 300px;
+        width: 316px;
+    }
+}

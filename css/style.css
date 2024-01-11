@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.card-row{
+    /*display: flex;
+    flex-wrap: wrap;*/
+    background-color: rgb(62, 7, 82);
+}
+.card-col{
+    /*width: 33.33%;*/
+    padding: 10px;
+}
+.card-card{
+    background-color: rgb(155, 82, 224);
+}
+img{
+    /*height: 300px;
+    width: 316px;*/
+}
+.card-card h1{
+    text-align: center;
+    color: #ffff;
+    font-family:Lumanosimo;
+}
+.card-card p{
+    padding: 20px;
+    text-align: justify;
+    color: beige;
+    font-family: Borel;
+}
